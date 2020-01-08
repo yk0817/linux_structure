@@ -63,6 +63,6 @@ $ docker start -ai linux_structure_ubuntu
 ### 用語集
 - レジスタ
   - CPU内部にあるメモリ、小容量だが、高速
-  
-### 学んだこと
-
+- ELF
+  - Executable and Linking Format
+  - バイナリ形式のファイル
