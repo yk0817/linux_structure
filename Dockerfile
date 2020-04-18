@@ -4,7 +4,7 @@ ENV PYTHONIOENCODING "utf-8"
 # pythonインストールは以下のリンクを参考とした
 # https://qiita.com/kekedadamama/items/154753aa8974774a8b2b
 RUN apt-get update -y \
-    && apt-get install -yq vim wget build-essential gcc zlib1g-dev strace ldd \
+    && apt-get install -yq vim wget build-essential gcc zlib1g-dev strace sar sysstat binutils ldd \
     && wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tgz \
     && tar zxf Python-3.6.0.tgz \
     && cd Python-3.6.0 \
